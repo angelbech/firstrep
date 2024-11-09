@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+ font-size:14px;
+ font-family: "Inter", sans-serif;
+}
+body{
+background-color: hsl(0, 0%, 8%);
+width: 1000px;
+height: 1000px;
+}
+
+.toppart{
+text-align: center;
+align-items: center;
+}
+
+.bottompart{
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0cap;
+    margin-top: 30px;
+    justify-content: center;
+    width: 500px;
+    height:600px;
+    align-items: center;
+    border:1px;
+    border-radius: 7%;
+    background-color:hsl(0, 0%, 12%)
+}
+#name
+{
+    font-size: large;
+    font-weight: 700;
+    color: white;
+}
+#Location {
+    color:hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+#desc
+{
+    color:white;
+    font-weight: 400 ;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    margin-bottom: 10%;
+
+}
+
+
+.button{
+    width: 300px;
+    padding: 4%;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 15%;
+    display: flex;
+    margin:10px;
+    align-items: center;
+    
+    height:30px;
+   justify-content: flex-end;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    flex: auto;
+}
+img{
+
+    border: 10cm;
+    border-radius: 100%;
+}
